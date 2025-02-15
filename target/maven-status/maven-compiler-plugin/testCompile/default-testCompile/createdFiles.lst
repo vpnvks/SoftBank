@@ -1,0 +1,7 @@
+com\softbank\utilities\Reporting.class
+com\softbank\utilities\PropertyReader.class
+com\softbank\testcases\BaseClass.class
+com\softbank\pageobjects\HomePage.class
+com\softbank\pageobjects\MenuOptions.class
+com\softbank\testcases\TC01_SuccessfulUseLogin.class
+com\softbank\pageobjects\LoginPage.class

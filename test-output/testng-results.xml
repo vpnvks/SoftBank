@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-15T14:02:46 IST" name="Suite" finished-at="2025-02-15T14:03:06 IST" duration-ms="19296">
+    <groups>
+    </groups>
+    <test started-at="2025-02-15T14:02:46 IST" name="Test" finished-at="2025-02-15T14:03:06 IST" duration-ms="19296">
+      <class name="com.softbank.testcases.TC01_SuccessfulUseLogin">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.softbank.testcases.TC01_SuccessfulUseLogin@1a451d4d]" started-at="2025-02-15T14:02:47 IST" name="Setup" finished-at="2025-02-15T14:02:52 IST" duration-ms="5494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testUserLogin(java.lang.Object,java.lang.Object)[pri:0, instance:com.softbank.testcases.TC01_SuccessfulUseLogin@1a451d4d]" started-at="2025-02-15T14:02:53 IST" name="testUserLogin" data-provider="exceldata" finished-at="2025-02-15T14:02:59 IST" duration-ms="5872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method signature="testUserLogin(java.lang.Object,java.lang.Object)[pri:0, instance:com.softbank.testcases.TC01_SuccessfulUseLogin@1a451d4d]" started-at="2025-02-15T14:02:59 IST" name="testUserLogin" data-provider="exceldata" finished-at="2025-02-15T14:03:05 IST" duration-ms="6162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestContext)[pri:0, instance:com.softbank.testcases.TC01_SuccessfulUseLogin@1a451d4d]" started-at="2025-02-15T14:03:05 IST" name="tearDown" finished-at="2025-02-15T14:03:06 IST" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6dc1dc69]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softbank.testcases.TC01_SuccessfulUseLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
