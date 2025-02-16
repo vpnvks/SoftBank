@@ -8,6 +8,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.softbank.testcases.TC01_SuccessfulUseLogin"/>
+      <class name="com.softbank.testcases.TC02_PlacingOrder"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -24,12 +24,12 @@ public class TC01_SuccessfulUseLogin extends BaseClass{
 	  lp.clickOnSubmit();
 	  
 	  logger.info("login successful");
-	  Thread.sleep(2000);
+	 
 	  hp.clickOnMenu();
-	  Thread.sleep(2000);
 	  mo.clickOnLogout();
+	  
 	  logger.info("logout successful");
-	  Thread.sleep(1000);
+	  
   }
   
   @DataProvider(name="userdata")
