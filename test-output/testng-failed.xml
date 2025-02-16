@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.softbank.testcases.TC01_SuccessfulUseLogin">
+      <class name="com.softbank.testcases.TC02_PlacingOrder">
         <methods>
-          <include name="testUserLogin"/>
           <include name="Setup"/>
           <include name="tearDown"/>
+          <include name="placeOrder"/>
         </methods>
-      </class> <!-- com.softbank.testcases.TC01_SuccessfulUseLogin -->
+      </class> <!-- com.softbank.testcases.TC02_PlacingOrder -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

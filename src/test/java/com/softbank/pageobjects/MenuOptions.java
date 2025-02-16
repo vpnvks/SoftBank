@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.softbank.utilities.WaitsForElement;
+
 public class MenuOptions {
 	
 WebDriver localdriver;
@@ -19,6 +21,6 @@ WebDriver localdriver;
 	WebElement logout;
 	
 	public void clickOnLogout() {
-		logout.click();
+		WaitsForElement.wait(localdriver, logout).click();
 	}
 }
